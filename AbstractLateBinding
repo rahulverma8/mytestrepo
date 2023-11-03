@@ -1,0 +1,42 @@
+abstract class Shape{
+    abstract void draw();
+    void show(){
+        System.out.println("inside show method");
+    }
+}
+class Triangle extends Shape{
+    void draw(){
+        System.out.println("Shape is Triangle");
+    }
+}
+class Rectangle extends Shape{
+    void draw(){
+        System.out.println("Shape is Polygon");
+    }
+}
+class Circle extends Shape{
+    void draw(){
+        System.out.println("Shape is Circle");
+    }
+}
+
+public class ShapeDemo
+{  
+    static void perform(Shape ref){
+        ref.show();        
+        ref.draw();
+    }
+    
+  public static void main(String args[])
+  {  
+      Shape s[] = new Shape[3];
+      
+    s[0] = new Triangle();
+    s[1] = new Rectangle();
+    s[2] = new Circle();
+      
+      for(int i=0;i<s.length;i++){
+          perform(s[i]);
+      }
+  }
+}
