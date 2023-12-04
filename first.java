@@ -1,4 +1,4 @@
-package RahulPack;
+package mypack;
 import java.lang.Thread;
 import java.lang.Runnable;
 import java.lang.Object;
@@ -11,8 +11,7 @@ class Thread1 extends Thread{
         System.out.println();
     }
 }
-
-public class Demo
+public class DemoMain
 {  
   public static void main(String args[])
   {  
