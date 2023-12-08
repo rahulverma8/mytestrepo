@@ -16,7 +16,6 @@ using System.Text.RegularExpressions;
          if(id<3){
            id++;
            Console.WriteLine("MyCompany"+id);
-          // Console.WriteLine("in emp constr");
          }
          else
            throw new Exception("No more employees allowed");
@@ -51,8 +50,6 @@ using System.Text.RegularExpressions;
        employee e1=new employee("Peter",40000);
         employee e2=new employee("Steve",29000);
          employee e3=new employee("Lovely",66900);
-          //employee e4=new employee("Bhupesh",17374);
-       Console.WriteLine("Hello, Dcoder!");
      }
    }
  }
