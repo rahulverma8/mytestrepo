@@ -71,7 +71,6 @@ public class MockRepo : IEmployeeRepository
         return list;
     }
 }
-///////////////////////////////////
 internal class Program
 {
     static void Main(string[] args)
@@ -109,7 +108,6 @@ internal class Program
         Employee e = db.Update(new Employee() { Id = 1, Name = "Nebieee", Salary = 78000, Gender = "Male", Address = "Santa Cruz, Mumbai" });
     }
 }
-/////////////////////////////////////////
 public interface IEmployeeRepository
 {
     Employee GetEmployee(int Id);
@@ -123,7 +121,6 @@ public interface IEmployeeRepository
             }*/
 }
 
-/////////////////////////////////////
 public class Employee
 {
     public int Id { get; set; }
