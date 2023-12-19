@@ -6,6 +6,7 @@ class OddEven
   public static void main(String args[])
   {  
       int loopsize = 6;
+      // FIRST PART
       int num = 1;
       for(int i=1;i<=3;i++){
           for(int j=0;j<i-1;j++)
@@ -19,7 +20,7 @@ class OddEven
           if(i==3)out.print(3);
           out.println();
           }
-      ////////////////////////// SECOND PART
+      // SECOND PART
  loopsize=4;
       num=4;
       for(int i=2;i>=1;i--){
