@@ -44,8 +44,7 @@ int solve(ll n, ll x){
 
 int main()
 {
-
-    int t;
+    int t;    //for test cases
     cin >> t;
     while(t--){
         ll n,x;
